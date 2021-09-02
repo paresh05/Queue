@@ -15,6 +15,16 @@ public class Queue<K> {
 		list.insert(data);
 	}
 	
+
+	/**
+	 * This method is used to remove the element from the queue
+	 */
+	public void dequeue()
+	{
+		list.popAllElements();
+	}
+	
+	
 	/**
 	 * This method is used to display the data using the show method of linked ist
 	 */
