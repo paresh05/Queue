@@ -2,7 +2,7 @@ package com.bridgelabzd17;
 
 public class QueueMain {
 	/**
-	 *  This is the main method which makes use of enqueue method to add the elements to queue
+	 *  This is the main method which makes use of enqueue method to add the elements to the queue
 	 *  Show method to display the data
 	 */
 	public static void main(String[] args) {
@@ -13,6 +13,7 @@ public class QueueMain {
 		queue.enqueue(70);
 		
 		queue.show();
+		
 	}
 
 }
