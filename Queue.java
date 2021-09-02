@@ -17,7 +17,7 @@ public class Queue<K> {
 	
 
 	/**
-	 * This method is used to remove the element from the queue
+	 * This method is used to remove all the element from the queue
 	 */
 	public void dequeue()
 	{
